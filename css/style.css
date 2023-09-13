@@ -9,14 +9,49 @@ body {
   background-size: cover;
   overflow-x: scroll; /* Horizontale scrollbar indien nodig */
   overflow-y: auto;  /* Verticale scrollbar indien nodig */
-
+;
 }
+
 
 header {
-  background-color: rgb(0, 179, 255);
-  color: white;
-  padding: 30px;
+
+  position: sticky;
+  top:0; 
+  z-index: 1000;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  
 }
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+.logo img {
+  width: 100px; 
+}
+
+.language a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  border-radius: 25px;
+}
+
+.language a:hover {
+  background-color: #004c35;
+  color: #ffffff;
+  border-color: #333;
+}
+
+
 
 .curio img {
   max-width: 100px;
@@ -25,15 +60,7 @@ header {
 }
 
 
-.menu{
-  position: sticky;
-  top:0; 
-  z-index: 1000;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(10px);
 
-}
 .menu ul {
   list-style: none;
   padding: 0;
@@ -54,7 +81,7 @@ header {
 }
 
 .menu ul li a:hover {
-  color: rgb(0, 179, 255);
+  color:#004c35;
 }
 
 .container {
@@ -70,7 +97,9 @@ header {
   align-items: center;
   min-height: 50vh;
 }
-
+#opleiding h2 {
+  color: #004c35;
+}
 #opleiding img {
   max-width: 50%;
   height: auto;
@@ -83,6 +112,9 @@ header {
   gap: 20px;
   flex-direction: column;
   align-items: center;
+}
+.docent-en-vak h2 {
+  color: #004c35;
 }
 
 .docent-en-vak-item {
@@ -114,6 +146,9 @@ header {
 #rooster.section {
   text-align: center;
   padding: 20px;
+}
+#rooster h2 {
+  color: #004c35;
 }
 
 #rooster img {
@@ -163,8 +198,7 @@ header {
 }
 
 .parallax-1 {
-  height: 50vh;
-  background-image: url("../img/Fotos_locaties/Sanne Bas - Curio - Knipplein 11-2.jpg");
+  height: 10vh;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -172,7 +206,7 @@ header {
 
 .parallax-2 {
   height: 50vh;
-  background-image: url("../img/Logos/Curio-logo.png");
+  background-image: url("../img/Fotos_locaties/Sanne Bas - Curio - Knipplein 11-2.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,3 +219,38 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
+
+    .back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      color: #fff; 
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+  
+    .back-to-top:hover {
+      background-color: #004c35;
+    }
+
+    #image-container {
+      position: fixed; 
+      top: 50%; 
+      left: 85%; 
+      transform: translateY(-30%); 
+  }
+  
+  #image-container img {
+    max-width: 170%;
+      height: auto; 
+      transform: rotate(-90deg);
+      opacity: 0.5;
+  }
+  
