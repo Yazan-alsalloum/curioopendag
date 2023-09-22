@@ -1,11 +1,18 @@
-# README voor Curio Opendag
+# Curio Project Readme
 
-## Overzicht
+Het Curio-project is een website met informatie over de opleiding tot software developer. De site biedt inzicht in de opleidingsinhoud, docenten, het rooster en de benodigde middelen
+## Waarom het project nuttig is
+Dit project helpt toekomstige studenten de opleiding tot software developer beter te begrijpen. Het geeft informatie over vakken, docenten en wat je nodig hebt, zodat je een goede studiekeuze kunt maken.
+## Hoe gebruikers aan de slag kunnen met het project
+Om te beginnen met het Curio-project, volg je deze stappen:
 
-Dit is de officiële website van Curio Opendag. Hier vind je informatie over onze opendagen en krijg je de kans om meer te ontdekken over onze opleidingen en de mogelijkheden die we bieden. 
+Kloon de repository: Gebruik een Git-client om de repository van het project te klonen naar je lokale computer.
 
-Kom langs en leer meer over wat we te bieden hebben!
+Open een webserver: Start een lokale webserver, zoals Laragon of een vergelijkbare applicatie, om de website lokaal te hosten.
 
-## Gebruik
+Navigeer naar de website: Open een webbrowser en ga naar de lokale URL waarop de website wordt gehost (bijvoorbeeld http://localhost).
 
-Bezoek onze website om te beginnen. Het hoofddoel van deze website is om potentiële leerlingen te informeren over wat er te verwachten valt tijdens hun eerste jaar op Curio.
+---
+
+![Curio](img/Logos/Curio-logo.png)
+
